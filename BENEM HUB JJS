@@ -1,4 +1,220 @@
+bbbbbb
+task.spawn(function()
+    pcall(function()
+        local response = game:HttpGet("https://thumbnails.roblox.com/v1/assets?assetIds=124938589547389&size=420x420&format=Png&isCircular=false")
+        local data = HttpService:JSONDecode(response)
+        if data and data.data and data.data[1] and data.data[1].imageUrl then
+            local imgUrl = data.data[1].imageUrl
+            if writefile and getcustomasset then
+                local imgData = game:HttpGet(imgUrl)
+                writefile("benem_skibidi.png", imgData)
+                LeftArt.Image = getcustomasset("benem_skibidi.png")
+            else
+                LeftArt.Image = imgUrl
+            end
+        end
+    end)
+end)
+
+-- === TOP BAR ===
+local TopBar = Instance.new("Frame")
+TopBar.Name = "TopBar"
+TopBar.Size = UDim2.new(1, 0, 0, 40)
+TopBar.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+TopBar.BackgroundTransparency = 0.3
+TopBar.BorderSizePixel = 0
+TopBar.Parent = MainFrame
+
+local TopCorner = Instance.new("UICorner")
+TopCorner.CornerRadius = UDim.new(0, 12)
+TopCorner.Parent = TopBar
+
+local FixTop = Instance.new("Frame")
+FixTop.Size = UDim2.new(1, 0, 0, 10)
+FixTop.Position = UDim2.new(0, 0, 1, -10)
+FixTop.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+FixTop.BackgroundTransparency = 0.3
 bbbbb
+task.spawn(function()
+    pcall(function()
+        local response = game:HttpGet("https://thumbnails.roblox.com/v1/assets?assetIds=124938589547389&size=420x420&format=Png&isCircular=false")
+        local data = HttpService:JSONDecode(response)
+        if data and data.data and data.data[1] and data.data[1].imageUrl then
+            local imgUrl = data.data[1].imageUrl
+            if writefile and getcustomasset then
+                local imgData = game:HttpGet(imgUrl)
+                writefile("benem_skibidi.png", imgData)
+                LeftArt.Image = getcustomasset("benem_skibidi.png")
+            else
+                LeftArt.Image = imgUrl
+            end
+        end
+    end)
+end)
+
+-- === TOP BAR ===
+local TopBar = Instance.new("Frame")
+TopBar.Name = "TopBar"
+TopBar.Size = UDim2.new(1, 0, 0, 40)
+TopBar.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+TopBar.BackgroundTransparency = 0.3
+TopBar.BorderSizePixel = 0
+TopBar.Parent = MainFrame
+
+local TopCorner = Instance.new("UICorner")
+TopCorner.CornerRadius = UDim.new(0, 12)
+TopCorner.Parent = TopBar
+
+local FixTop = Instance.new("Frame")
+FixTop.Size = UDim2.new(1, 0, 0, 10)
+FixTop.Position = UDim2.new(0, 0, 1, -10)
+FixTop.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+FixTop.BackgroundTransparency = 0.3
+bbbbb
+task.spawn(function()
+    pcall(function()
+        local response = game:HttpGet("https://thumbnails.roblox.com/v1/assets?assetIds=124938589547389&size=420x420&format=Png&isCircular=false")
+        local data = HttpService:JSONDecode(response)
+        if data and data.data and data.data[1] and data.data[1].imageUrl then
+            local imgUrl = data.data[1].imageUrl
+            if writefile and getcustomasset then
+                local imgData = game:HttpGet(imgUrl)
+                writefile("benem_skibidi.png", imgData)
+                LeftArt.Image = getcustomasset("benem_skibidi.png")
+            else
+                LeftArt.Image = imgUrl
+            end
+        end
+    end)
+end)
+
+-- === TOP BAR ===
+local TopBar = Instance.new("Frame")
+TopBar.Name = "TopBar"
+TopBar.Size = UDim2.new(1, 0, 0, 40)
+TopBar.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+TopBar.BackgroundTransparency = 0.3
+TopBar.BorderSizePixel = 0
+TopBar.Parent = MainFrame
+
+local TopCorner = Instance.new("UICorner")
+TopCorner.CornerRadius = UDim.new(0, 12)
+TopCorner.Parent = TopBar
+
+local FixTop = Instance.new("Frame")
+FixTop.Size = UDim2.new(1, 0, 0, 10)
+FixTop.Position = UDim2.new(0, 0, 1, -10)
+FixTop.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+FixTop.BackgroundTransparency = 0.3
+bbbbb
+task.spawn(function()
+    pcall(function()
+        local response = game:HttpGet("https://thumbnails.roblox.com/v1/assets?assetIds=124938589547389&size=420x420&format=Png&isCircular=false")
+        local data = HttpService:JSONDecode(response)
+        if data and data.data and data.data[1] and data.data[1].imageUrl then
+            local imgUrl = data.data[1].imageUrl
+            if writefile and getcustomasset then
+                local imgData = game:HttpGet(imgUrl)
+                writefile("benem_skibidi.png", imgData)
+                LeftArt.Image = getcustomasset("benem_skibidi.png")
+            else
+                LeftArt.Image = imgUrl
+            end
+        end
+    end)
+end)
+
+-- === TOP BAR ===
+local TopBar = Instance.new("Frame")
+TopBar.Name = "TopBar"
+TopBar.Size = UDim2.new(1, 0, 0, 40)
+TopBar.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+TopBar.BackgroundTransparency = 0.3
+TopBar.BorderSizePixel = 0
+TopBar.Parent = MainFrame
+
+local TopCorner = Instance.new("UICorner")
+TopCorner.CornerRadius = UDim.new(0, 12)
+TopCorner.Parent = TopBar
+
+local FixTop = Instance.new("Frame")
+FixTop.Size = UDim2.new(1, 0, 0, 10)
+FixTop.Position = UDim2.new(0, 0, 1, -10)
+FixTop.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+FixTop.BackgroundTransparency = 0.3
+bbbbb
+task.spawn(function()
+    pcall(function()
+        local response = game:HttpGet("https://thumbnails.roblox.com/v1/assets?assetIds=124938589547389&size=420x420&format=Png&isCircular=false")
+        local data = HttpService:JSONDecode(response)
+        if data and data.data and data.data[1] and data.data[1].imageUrl then
+            local imgUrl = data.data[1].imageUrl
+            if writefile and getcustomasset then
+                local imgData = game:HttpGet(imgUrl)
+                writefile("benem_skibidi.png", imgData)
+                LeftArt.Image = getcustomasset("benem_skibidi.png")
+            else
+                LeftArt.Image = imgUrl
+            end
+        end
+    end)
+end)
+
+-- === TOP BAR ===
+local TopBar = Instance.new("Frame")
+TopBar.Name = "TopBar"
+TopBar.Size = UDim2.new(1, 0, 0, 40)
+TopBar.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+TopBar.BackgroundTransparency = 0.3
+TopBar.BorderSizePixel = 0
+TopBar.Parent = MainFrame
+
+local TopCorner = Instance.new("UICorner")
+TopCorner.CornerRadius = UDim.new(0, 12)
+TopCorner.Parent = TopBar
+
+local FixTop = Instance.new("Frame")
+FixTop.Size = UDim2.new(1, 0, 0, 10)
+FixTop.Position = UDim2.new(0, 0, 1, -10)
+FixTop.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+FixTop.BackgroundTransparency = 0.3
+bbbbb
+task.spawn(function()
+    pcall(function()
+        local response = game:HttpGet("https://thumbnails.roblox.com/v1/assets?assetIds=124938589547389&size=420x420&format=Png&isCircular=false")
+        local data = HttpService:JSONDecode(response)
+        if data and data.data and data.data[1] and data.data[1].imageUrl then
+            local imgUrl = data.data[1].imageUrl
+            if writefile and getcustomasset then
+                local imgData = game:HttpGet(imgUrl)
+                writefile("benem_skibidi.png", imgData)
+                LeftArt.Image = getcustomasset("benem_skibidi.png")
+            else
+                LeftArt.Image = imgUrl
+            end
+        end
+    end)
+end)
+
+-- === TOP BAR ===
+local TopBar = Instance.new("Frame")
+TopBar.Name = "TopBar"
+TopBar.Size = UDim2.new(1, 0, 0, 40)
+TopBar.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+TopBar.BackgroundTransparency = 0.3
+TopBar.BorderSizePixel = 0
+TopBar.Parent = MainFrame
+
+local TopCorner = Instance.new("UICorner")
+TopCorner.CornerRadius = UDim.new(0, 12)
+TopCorner.Parent = TopBar
+
+local FixTop = Instance.new("Frame")
+FixTop.Size = UDim2.new(1, 0, 0, 10)
+FixTop.Position = UDim2.new(0, 0, 1, -10)
+FixTop.BackgroundColor3 = Color3.fromRGB(15, 22, 35)
+FixTop.BackgroundTransparency = 0.3
+bbbb
 task.spawn(function()
     pcall(function()
         local response = game:HttpGet("https://thumbnails.roblox.com/v1/assets?assetIds=124938589547389&size=420x420&format=Png&isCircular=false")
